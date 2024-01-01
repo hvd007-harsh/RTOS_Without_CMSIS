@@ -1,0 +1,36 @@
+19:05:14 **** Incremental Build of configuration Debug for project FreeRTOS_Sample ****
+make -j4 all 
+arm-none-eabi-gcc "../Third-Party/FreeRTOS/portable/MemMang/heap_4.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I"D:/Workspace/RTOS/FreeRTOS_Sample/Third-Party/FreeRTOS/include" -I"D:/Workspace/RTOS/FreeRTOS_Sample/Third-Party/FreeRTOS/portable/GCC/ARM_CM4F" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/Workspace/RTOS/FreeRTOS_Sample/Third-Party/FreeRTOS/portable/GCC/ARM_CM4F" -I"D:/Workspace/RTOS/FreeRTOS_Sample/Third-Party/FreeRTOS/include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Third-Party/FreeRTOS/portable/MemMang/heap_4.d" -MT"Third-Party/FreeRTOS/portable/MemMang/heap_4.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Third-Party/FreeRTOS/portable/MemMang/heap_4.o"
+arm-none-eabi-gcc "../Third-Party/FreeRTOS/portable/GCC/ARM_CM4F/port.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I"D:/Workspace/RTOS/FreeRTOS_Sample/Third-Party/FreeRTOS/include" -I"D:/Workspace/RTOS/FreeRTOS_Sample/Third-Party/FreeRTOS/portable/GCC/ARM_CM4F" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/Workspace/RTOS/FreeRTOS_Sample/Third-Party/FreeRTOS/portable/GCC/ARM_CM4F" -I"D:/Workspace/RTOS/FreeRTOS_Sample/Third-Party/FreeRTOS/include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Third-Party/FreeRTOS/portable/GCC/ARM_CM4F/port.d" -MT"Third-Party/FreeRTOS/portable/GCC/ARM_CM4F/port.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Third-Party/FreeRTOS/portable/GCC/ARM_CM4F/port.o"
+arm-none-eabi-gcc "../Third-Party/FreeRTOS/croutine.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I"D:/Workspace/RTOS/FreeRTOS_Sample/Third-Party/FreeRTOS/include" -I"D:/Workspace/RTOS/FreeRTOS_Sample/Third-Party/FreeRTOS/portable/GCC/ARM_CM4F" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/Workspace/RTOS/FreeRTOS_Sample/Third-Party/FreeRTOS/portable/GCC/ARM_CM4F" -I"D:/Workspace/RTOS/FreeRTOS_Sample/Third-Party/FreeRTOS/include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Third-Party/FreeRTOS/croutine.d" -MT"Third-Party/FreeRTOS/croutine.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Third-Party/FreeRTOS/croutine.o"
+arm-none-eabi-gcc "../Third-Party/FreeRTOS/event_groups.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I"D:/Workspace/RTOS/FreeRTOS_Sample/Third-Party/FreeRTOS/include" -I"D:/Workspace/RTOS/FreeRTOS_Sample/Third-Party/FreeRTOS/portable/GCC/ARM_CM4F" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/Workspace/RTOS/FreeRTOS_Sample/Third-Party/FreeRTOS/portable/GCC/ARM_CM4F" -I"D:/Workspace/RTOS/FreeRTOS_Sample/Third-Party/FreeRTOS/include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Third-Party/FreeRTOS/event_groups.d" -MT"Third-Party/FreeRTOS/event_groups.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Third-Party/FreeRTOS/event_groups.o"
+In file included from D:/Workspace/RTOS/FreeRTOS_Sample/Third-Party/FreeRTOS/include/FreeRTOS.h:59,
+                 from ../Third-Party/FreeRTOS/portable/GCC/ARM_CM4F/port.c:34:
+D:/Workspace/RTOS/FreeRTOS_Sample/Third-Party/FreeRTOS/include/FreeRTOSConfig.h:13:10: fatal error: something.h: No such file or directory
+   13 | #include "something.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from D:/Workspace/RTOS/FreeRTOS_Sample/Third-Party/FreeRTOS/include/FreeRTOS.h:59,
+                 from ../Third-Party/FreeRTOS/croutine.c:29:
+D:/Workspace/RTOS/FreeRTOS_Sample/Third-Party/FreeRTOS/include/FreeRTOSConfig.h:13:10: fatal error: something.h: No such file or directory
+   13 | #include "something.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from D:/Workspace/RTOS/FreeRTOS_Sample/Third-Party/FreeRTOS/include/FreeRTOS.h:59,
+                 from ../Third-Party/FreeRTOS/portable/MemMang/heap_4.c:45:
+D:/Workspace/RTOS/FreeRTOS_Sample/Third-Party/FreeRTOS/include/FreeRTOSConfig.h:13:10: fatal error: something.h: No such file or directory
+   13 | #include "something.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [Third-Party/FreeRTOS/portable/GCC/ARM_CM4F/subdir.mk:19: Third-Party/FreeRTOS/portable/GCC/ARM_CM4F/port.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Third-Party/FreeRTOS/subdir.mk:37: Third-Party/FreeRTOS/croutine.o] Error 1
+make: *** [Third-Party/FreeRTOS/portable/MemMang/subdir.mk:19: Third-Party/FreeRTOS/portable/MemMang/heap_4.o] Error 1
+In file included from D:/Workspace/RTOS/FreeRTOS_Sample/Third-Party/FreeRTOS/include/FreeRTOS.h:59,
+                 from ../Third-Party/FreeRTOS/event_groups.c:38:
+D:/Workspace/RTOS/FreeRTOS_Sample/Third-Party/FreeRTOS/include/FreeRTOSConfig.h:13:10: fatal error: something.h: No such file or directory
+   13 | #include "something.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [Third-Party/FreeRTOS/subdir.mk:37: Third-Party/FreeRTOS/event_groups.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.

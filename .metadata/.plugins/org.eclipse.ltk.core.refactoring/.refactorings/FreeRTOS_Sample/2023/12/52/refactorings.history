@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;FreeRTOS_Sample/Third-Party/FreeRTOS/include/FreeRTOS_Config.h&apos; to &apos;FreeRTOSConfig.h&apos;" description="Rename resource &apos;FreeRTOS_Config.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Third-Party/FreeRTOS/include/FreeRTOS_Config.h" name="FreeRTOSConfig.h" stamp="1703943310360" updateReferences="true"/>
+</session>
